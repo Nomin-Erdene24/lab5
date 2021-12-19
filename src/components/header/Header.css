@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto+Condensed:wght@300&display=swap");
+.Yolo {
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 20px;
+  width: 100px;
+  height: 50px;
+}
+.UswurNas {
+  margin-left: 100px;
+  margin-right: 20px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 17px;
+}
+.Header {
+  display: flex;
+  flex-direction: row;
+}
+.Shiljih {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 140px;
+  align-items: center;
+}
+.yellow i {
+  margin-right: 30px;
+  margin-left: 50px;
+  color: yellow;
+}
+.blue {
+  color: #325ca8;
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto+Condensed:wght@300&display=swap");
+.zurag {
+  width: 220px;
+  height: 200px;
+}
+.type {
+  padding: 5px;
+  background-color: #f8e71c;
+  width: 80px;
+  border-radius: 10px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 10px;
+  color: #000;
+}
+.delgerengvi {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Roboto Condensed", sans-serif;
+  height: 60px;
+  color: #9b9b9b;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.ner {
+  padding: 10px 10px 5px 10px;
+  height: 60px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+.icon {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  background: #fff;
+  width: 220px;
+  height: 490px;
+  margin: 6px 10px 6px 0px;
+  box-shadow: 1px 2px 3px 2px #b8b6b6;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.eye {
+  width: 12px;
+  height: 9px;
+  margin-right: 5px;
+}
+.heart {
+  width: 15px;
+  height: 12px;
+  margin-right: 5px;
+}
+.space {
+  margin-right: 6px;
+}
+.hoverR {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 33.5%;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.hoverR i {
+  color: #000000;
+  font-size: 20px;
+  padding: 0.5rem 0;
+  text-align: center;
+  width: 34%;
+  transition: all 0.5s ease-out;
+  background: rgba(163, 162, 162, 0.7);
+  opacity: 0;
+}
+.hoverR i:hover {
+  background: #f8e71c;
+}
+.container:hover .hoverR,
+.hoverR i {
+  opacity: 1;
+}

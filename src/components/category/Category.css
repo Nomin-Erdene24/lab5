@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto+Condensed:wght@300&display=swap");
+a {
+  color: rgb(71, 69, 69);
+  text-decoration: none;
+  transition: 0.2s;
+}
+.cate {
+  padding: 20px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+}
+.cate a:hover {
+  color: yellow;
+}

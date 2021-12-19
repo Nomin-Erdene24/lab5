@@ -1,0 +1,60 @@
+.yurunhii {
+  /* display: grid;
+  grid-template-columns: repeat(5, 3fr); */
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.headdd {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 105px 23px 105px;
+}
+.Ontsloh {
+  font-weight: 18px;
+  font-family: "Open Sans Condensed", sans-serif;
+  border-left: 4px solid yellow;
+  padding: 5px 5px 5px 8px;
+  text-align: center;
+}
+.less,
+.greater {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid black;
+}
+button {
+  color: black;
+  font: 14px "Roboto", sans-serif;
+  padding: 5px 10px;
+  border: 1px solid black;
+  margin: 3px;
+}
+button:hover {
+  background-color: #000;
+  color: white;
+}
+/* .slider button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 19%;
+  left: 86%;
+  width: 65px;
+  height: 30px;
+  opacity: 0;
+} */
+.slider button[data-direction="left"] {
+  position: absolute;
+  left: 86.2%;
+  top: 18.7%;
+  padding: 1rem 0.8rem;
+  opacity: 0;
+}
+.slider button[data-direction="right"] {
+  position: absolute;
+  left: 89%;
+  top: 18.7%;
+  opacity: 0;
+  padding: 1rem 0.8rem;
+}

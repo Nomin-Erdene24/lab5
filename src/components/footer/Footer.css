@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto+Condensed:wght@300&display=swap");
+.Footer1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 105px 23px 105px;
+}
+button {
+  color: black;
+  font: 14px "Roboto", sans-serif;
+  padding: 5px 10px;
+  border: 1px solid black;
+  margin: 3px;
+}
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.Ontsloh {
+  font-weight: 18px;
+  font-family: "Open Sans Condensed", sans-serif;
+  border-left: 4px solid yellow;
+  padding: 10px 5px 5px 8px;
+}
+.eee img {
+  width: 640px;
+  height: 430px;
+  margin-left: 105px;
+  margin-right: 110px;
+}
+.Footer2 {
+  display: flex;
+}
